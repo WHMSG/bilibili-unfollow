@@ -33,11 +33,6 @@ bili_auto_unfollow/
    ```bash
    pip install requests
 
-
-
-
-
-
 配置步骤
 获取 B站 Cookie：
 
@@ -69,13 +64,17 @@ python auto_unfollow.py
 逐个取消关注（每个请求间隔 UNFOLLOW_INTERVAL 秒）
 
 方式二：分步运行
-仅获取关注列表：python quguan.py
+仅获取关注列表：
+```
+bash
+python quguan.py
+```
 
-仅执行取关（需已有 mid.txt）：python unfollow.py
-
-
-
-
+仅执行取关（需已有 mid.txt）：
+```
+bash
+python unfollow.py
+```
 
  注意事项
 Cookie 有效期：Cookie 会过期，如果脚本报错（如 -101），请重新复制最新的 Cookie。
