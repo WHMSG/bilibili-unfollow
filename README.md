@@ -26,14 +26,15 @@ bili_auto_unfollow/
 └── README.md
 
 
-## 🛠️ 使用前准备
+## 使用前准备
 
 1. **安装 Python 3.8+**（[下载地址](https://www.python.org/downloads/)），安装时勾选 “Add Python to PATH”。
 2. **安装依赖库**（只需 `requests`）：
    ```
    pip install requests
    ```
-##配置步骤
+   
+## 配置步骤
 获取 B站 Cookie：
 
 使用 Chrome/Edge 浏览器登录 B站。
@@ -52,7 +53,7 @@ bili_auto_unfollow/
 
 （可选）如需自定义请求间隔、输出文件等，可修改对应的参数。
 
-##运行方法
+## 运行方法
 方式一：一键运行（推荐）
 在命令行中进入项目目录，执行：
 
@@ -74,7 +75,7 @@ python quguan.py
 python unfollow.py
 ```
 
- 注意事项
+## 注意事项
 Cookie 有效期：Cookie 会过期，如果脚本报错（如 -101），请重新复制最新的 Cookie。
 
 风控风险：批量取关可能触发 B站 的风控机制（错误码 -352）。建议：
