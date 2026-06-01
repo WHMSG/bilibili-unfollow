@@ -30,7 +30,7 @@ bili_auto_unfollow/
 
 1. **安装 Python 3.8+**（[下载地址](https://www.python.org/downloads/)），安装时勾选 “Add Python to PATH”。
 2. **安装依赖库**（只需 `requests`）：
-   ```bash
+   ```
    pip install requests
 
 配置步骤
@@ -66,13 +66,13 @@ python auto_unfollow.py
 方式二：分步运行
 仅获取关注列表：
 ```
-bash
+
 python quguan.py
 ```
 
 仅执行取关（需已有 mid.txt）：
 ```
-bash
+
 python unfollow.py
 ```
 
