@@ -32,7 +32,7 @@ bili_auto_unfollow/
 2. **安装依赖库**（只需 `requests`）：
    ```
    pip install requests
-
+   ```
 配置步骤
 获取 B站 Cookie：
 
@@ -66,13 +66,11 @@ python auto_unfollow.py
 方式二：分步运行
 仅获取关注列表：
 ```
-
 python quguan.py
 ```
 
 仅执行取关（需已有 mid.txt）：
 ```
-
 python unfollow.py
 ```
 
